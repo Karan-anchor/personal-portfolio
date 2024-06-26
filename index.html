@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            border: none;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: rgb(8, 2, 2);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 56px;
+            background-color: rgb(28, 28, 27);
+        }
+
+        .left {
+            font-size: 1.4rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 24px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(155, 155, 228);
+            font-size: 1.1rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 5rem;
+            margin: 30px 0;
+        }
+
+        .leftSection p {
+            font-size: 1.3rem;
+            margin: 25px 0;
+        }
+
+        .rightSection img {
+            width: 100%;
+            margin:10px 0;
+        }
+        .rightSection video {
+            position: relative;
+            top: -180px;
+            margin: 10px;
+            height: 140%;
+           
+        }
+
+        .purple {
+            color: darkslateblue;
+        }
+
+        .btn-container button {
+            border: .1rem saddlebrown;
+            font-size: 1.1rem;
+            padding: 1.2rem;
+            margin: 10px;
+            border-radius: .5rem;
+            cursor: pointer;
+        }
+
+        button:nth-child(1) {
+            background: rgb(148, 136, 136);
+        }
+
+        .btn-container button:hover {
+            color: blueviolet;
+            font-size: 1.0rem;
+        }
+        footer{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+
+        }
+        .Secondsection h1 {
+            position: relative;
+            margin: 0 70px;
+            top: -298px;
+            padding: auto;
+            font-size: 70px;
+            color: #808080;
+        }
+        .Secondsection h1:hover{
+            transform: translate(-20px);
+        }
+
+        .Secondsection p {
+            position: relative;
+            top: -290px;
+            font-size: 20px;
+            width: 310px;
+            margin:55px;
+            padding: 20px;
+            height: -10px;
+        }
+
+        .Secondsection p:hover {
+            transform: translate(-2px);
+            color: yellow;
+        }
+        .Thirdsection p{
+            position: relative;
+            bottom:2rem;
+            left:2%;
+            top: -190px;
+        }
+        .social i {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 45px;
+            width: 45px;
+            background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+            box-shadow: 0px 20px 40px #00000070;
+            border: 1px solid #3b3b3b;
+            border-radius: 50%;
+            color: var(--text-color);
+            font-size: 20px;
+            margin: 0 15px;
+            transition: all 0.6 ease-in-out;
+            position: relative;
+            top: -220px;
+            left: 10%;
+        }
+
+        .social i:hover {
+            transform: translate(-10px);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Portfolio</a></li>
+                    <li><a href="/">Contact me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,I'm <span class="purple">Karan Rathor</span>
+                <p>This is my official portfolio website to shows all
+                    details and work experience in Web Development.
+                </p>
+                <div class="btn-container">
+                    <button>Download Resume</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img.png.png" alt="">
+                <video width="400" height="320" autoplay loop muted controls>
+                    <source src="video.png.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section class="Secondsection">
+            <h1>About me</h1>
+            <p>I'm Front-end developer looking for a role in established
+                IT company with the technologies and learn
+                something new with great work experience.</p>
+            <p>I'm passionate about in Web Development and determined in improving my set of skills and try something
+                new everytime. </p>
+            <p>I'm eager to learn from experienced professionals and contribute to real-world projects, If I need to
+                define myself in one word that would be family-person tech-obsessed. </p>
+        </section>
+        <section class="Thirdsection">
+            <div class="share">
+                <p>Check out my:</p>
+        
+                <div class="social">
+                    <a href="https://www.facebook.com/profile.php?id=100073117574882" target="_blank"><i class='bx bxl-facebook'></i></i></a>
+                    <a href="https://www.instagram.com/rathore6772/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                </div>
+             </div>
+        </section>
+    </main>
+    <footer>
+        <p class="class">Copyright &copy;Karanportfolio.com|All right reserved</p>
+     </footer>
+     
+</body>
+
+
+</html>
